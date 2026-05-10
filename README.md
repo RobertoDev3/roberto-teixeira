@@ -31,9 +31,9 @@ Não foram utilizados frameworks de CSS ou JavaScript.
 
 - `index.html`: página principal do portfólio.
 - `projetos.html`: página com todos os projetos públicos do GitHub.
-- `styles.css`: estilos, responsividade, temas e estados visuais.
-- `script.js`: menu responsivo, alternância de tema e validação do formulário.
-- `github-projects.js`: integração com a API do GitHub e renderização dos projetos.
+- `css/styles.css`: estilos, responsividade, temas e estados visuais.
+- `js/script.js`: menu responsivo, alternância de tema e validação do formulário.
+- `js/github-projects.js`: integração com a API do GitHub e renderização dos projetos.
 - `README.md`: documentação do projeto.
 
 ## Como visualizar o projeto
@@ -60,7 +60,7 @@ Ou abra localmente:
 
 ## Configuração dos projetos do GitHub
 
-O usuário do GitHub usado na integração está definido em `github-projects.js`:
+O usuário do GitHub usado na integração está definido em `js/github-projects.js`:
 
 ```js
 const GITHUB_USERNAME = "RobertoDev3";
