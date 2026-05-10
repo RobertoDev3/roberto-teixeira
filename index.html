@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal de Roberto Teixeira, com apresentação, formação, projetos e formulário de contato.">
+  <title>Roberto Teixeira | Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Menu principal">
+      <a class="brand" href="#sobre" aria-label="Ir para o início">
+        <span class="brand-mark">RT</span>
+        <span>Roberto Teixeira</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+
+      <div class="menu" id="menu">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+        <button class="theme-toggle" type="button" aria-label="Mudar tema" data-tooltip="Mudar tema">
+          <span class="theme-icon sun-icon" aria-hidden="true">☀</span>
+          <span class="theme-icon moon-icon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="sobre">
+      <div class="hero-content">
+        <p class="eyebrow">Portfólio pessoal</p>
+        <h1>Roberto Teixeira</h1>
+        <p class="hero-text">
+          Desenvolvedor front-end focado em criar interfaces modernas, performáticas e experiências web sofisticadas. Trabalho principalmente com React, Next.js e TypeScript, unindo desenvolvimento, animações e arquitetura para construir projetos profissionais e escaláveis
+        </p>
+        <div class="hero-actions" aria-label="Ações principais">
+          <a class="button primary" href="#portfolio">Ver projetos</a>
+          <a class="button secondary" href="#contato">Entrar em contato</a>
+        </div>
+      </div>
+
+      <aside class="profile-panel" aria-label="Resumo do perfil">
+        <div class="avatar" aria-hidden="true">RT</div>
+        <dl>
+          <div>
+            <dt>Área</dt>
+            <dd>Desenvolvimento Front-end</dd>
+          </div>
+          <div>
+            <dt>Foco atual</dt>
+            <dd>React, Next.js, TypeScript e UX</dd>
+          </div>
+          <div>
+            <dt>Objetivo</dt>
+            <dd>Criar experiências web modernas, performáticas e visualmente marcantes</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section about-grid" aria-labelledby="sobre-titulo">
+      <div>
+        <p class="eyebrow">Sobre mim</p>
+        <h2 id="sobre-titulo">Um pouco da minha história</h2>
+      </div>
+      <div class="text-block">
+        <p>
+          Meu nome é Roberto Teixeira, tenho 28 anos e estou tentando me tornar um excelente desenvolvedor web.
+          Gosto de aprender colocando a mão no código, testando ideias e melhorando cada detalhe
+          da página até que a experiência fique clara para quem acessa.
+        </p>
+        <p>
+          Nos meus momentos livres, gosto de acompanhar tecnologia, aprender coisas novas, jogar, viajar e assistir séries e animes.
+        </p>
+      </div>
+    </section>
+
+    <section class="section split-section" id="formacao" aria-labelledby="formacao-titulo">
+      <div class="sticky-copy">
+        <p class="eyebrow">Formação</p>
+        <h2 id="formacao-titulo">Estudos e conhecimentos</h2>
+        <p>
+          Minha formação está voltada para a prática de desenvolvimento web, com atenção à
+          organização do código, responsividade e construção de páginas acessíveis.
+        </p>
+      </div>
+
+      <div class="timeline">
+  <article class="timeline-item">
+    <span>Front-end</span>
+    <h3>React.js, Next.js e TypeScript</h3>
+    <p>
+      Desenvolvimento de aplicações modernas utilizando componentização,
+      renderização otimizada e tipagem estática.
+    </p>
+  </article>
+
+  <article class="timeline-item">
+    <span>Estilização</span>
+    <h3>Tailwind CSS, Bootstrap, SASS e Styled-Components</h3>
+    <p>
+      Criação de interfaces responsivas, modernas e organizadas com foco em
+      experiência do usuário e design visual.
+    </p>
+  </article>
+
+  <article class="timeline-item">
+    <span>Animações & UX</span>
+    <h3>GSAP e Interfaces Interativas</h3>
+    <p>
+      Desenvolvimento de animações modernas e experiências visuais voltadas para
+      interatividade e fluidez da navegação.
+    </p>
+  </article>
+
+  <article class="timeline-item">
+    <span>Back-end & APIs</span>
+    <h3>Node.js, Prisma, Auth.js e API REST</h3>
+    <p>
+      Integração com APIs, autenticação de usuários, gerenciamento de dados e
+      estruturação de aplicações full stack.
+    </p>
+  </article>
+
+  <article class="timeline-item">
+    <span>Bibliotecas</span>
+    <h3>Zustand, TanStack Query, Axios e Zod</h3>
+    <p>
+      Gerenciamento de estado, cache de dados, validação e otimização de
+      aplicações React.
+    </p>
+  </article>
+
+  <article class="timeline-item">
+    <span>CMS & Arquitetura</span>
+    <h3>WordPress Headless e WooCommerce</h3>
+    <p>
+      Desenvolvimento de aplicações integradas utilizando CMS headless e APIs
+      para gerenciamento de conteúdo e catálogo de produtos.
+    </p>
+  </article>
+
+  <article class="timeline-item">
+    <span>UI & Design</span>
+    <h3>Figma e Adobe Photoshop</h3>
+    <p>
+      Desenvolvimento de protótipos, identidade visual, edição de imagens e
+      construção de layouts para aplicações web.
+    </p>
+  </article>
+
+  <article class="timeline-item">
+    <span>Ferramentas</span>
+    <h3>Git, GitHub, Vercel, ESLint e VS Code</h3>
+    <p>
+      Utilização de ferramentas para versionamento, deploy, organização e fluxo
+      de desenvolvimento.
+    </p>
+  </article>
+
+  <article class="timeline-item">
+    <span>Base Web</span>
+    <h3>HTML, CSS e JavaScript</h3>
+    <p>
+      Conhecimentos fundamentais para estruturação, estilização e interatividade
+      de aplicações web.
+    </p>
+  </article>
+</div>
+    </section>
+
+    <section class="section" id="portfolio" aria-labelledby="portfolio-titulo">
+      <div class="section-heading portfolio-heading">
+        <div>
+          <p class="eyebrow">Portfólio</p>
+          <h2 id="portfolio-titulo">Projetos e atividades</h2>
+          <p>Projetos públicos do meu GitHub que demonstram minha evolução nos estudos de programação web.</p>
+        </div>
+        <a class="button secondary" href="projetos.html">Ver todos</a>
+      </div>
+
+      <div class="project-grid" id="featuredProjects" data-limit="3">
+        <p class="project-status">Carregando projetos do GitHub...</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato" aria-labelledby="contato-titulo">
+      <div>
+        <p class="eyebrow">Contato</p>
+        <h2 id="contato-titulo">Envie uma mensagem</h2>
+        <p>
+          Fique à vontade para deixar uma mensagem sobre projetos, estudos ou oportunidades
+          relacionadas à área de tecnologia.
+        </p>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Seu nome">
+        <small class="error-message" id="nomeError"></small>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="seuemail@dominio.com">
+        <small class="error-message" id="emailError"></small>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem"></textarea>
+        <small class="error-message" id="mensagemError"></small>
+
+        <button class="button primary" type="submit">Enviar mensagem</button>
+        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Roberto Teixeira. Portfólio desenvolvido com HTML5, CSS3 e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="github-projects.js"></script>
+</body>
+</html>
